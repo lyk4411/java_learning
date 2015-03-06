@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.domain">
+	<class name="Customer" table="customers" lazy="true">
+		<id name="id" 
+			type="int"
+			column="id">
+			<generator class="native"/>
+		</id>
+				
+		<property name="name" 
+			column="name"
+			not-null="true"/>
+		<component name="home" class="Address">
+			<parent name="customer"/>
+			<property name="city" column="home_city"></property>
+			<property name="street" column="home_street"></property>
+		</component>
+		
+		<component name="company" class="Address">
+			<parent name="customer"/>
+			<property name="city" column="company_city"></property>
+			<property name="street" column="company_street"></property>
+		</component>
+		
+	</class>
+	
+</hibernate-mapping>

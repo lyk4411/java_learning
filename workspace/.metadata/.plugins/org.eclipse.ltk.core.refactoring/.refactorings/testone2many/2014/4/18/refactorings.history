@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;testquery/src/com.domain&apos;&#x0D;&#x0A;- Original project: &apos;testone2many&apos;&#x0D;&#x0A;- Destination element: &apos;testquery/src/com.domain&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.domain.Group.java&#x0D;&#x0A;     com.domain.User.java&#x0D;&#x0A;     Group.htm.xml&#x0D;&#x0A;     User.htm.xml" description="Copy elements" destination="=testquery/src&lt;com.domain" element1="src/com/domain/Group.htm.xml" element2="src/com/domain/User.htm.xml" element3="/src&lt;com.domain{Group.java" element4="/src&lt;com.domain{User.java" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1398830033101" units="2" version="1.0"/>
+</session>

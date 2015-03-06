@@ -1,0 +1,23 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.7.0_45/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.M2_REPO=D\:/Repositories/Maven
+org.eclipse.jdt.core.codeComplete.argumentPrefixes=
+org.eclipse.jdt.core.codeComplete.argumentSuffixes=
+org.eclipse.jdt.core.codeComplete.fieldPrefixes=
+org.eclipse.jdt.core.codeComplete.fieldSuffixes=
+org.eclipse.jdt.core.codeComplete.localPrefixes=
+org.eclipse.jdt.core.codeComplete.localSuffixes=
+org.eclipse.jdt.core.codeComplete.staticFieldPrefixes=
+org.eclipse.jdt.core.codeComplete.staticFieldSuffixes=
+org.eclipse.jdt.core.codeComplete.staticFinalFieldPrefixes=
+org.eclipse.jdt.core.codeComplete.staticFinalFieldSuffixes=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.6
+org.eclipse.jdt.core.compiler.compliance=1.6
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.6
+org.eclipse.jdt.core.userLibrary.hibernate=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/commons-collections-3.1.jar"/>\r\n\t<archive path\="D\:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/dom4j-1.6.1.jar"/>\r\n\t<archive path\="D\:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/jta-1.1.jar"/>\r\n\t<archive path\="D\:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/hibernate3.jar"/>\r\n\t<archive path\="D\:/software/log4j.jar"/>\r\n\t<archive path\="D\:/software/slf4j-1.5.2/slf4j-1.5.2/slf4j-api-1.5.2.jar"/>\r\n\t<archive path\="D\:/software/slf4j-1.5.2/slf4j-1.5.2/slf4j-log4j12-1.5.2.jar"/>\r\n\t<archive path\="D\:/software/slf4j-1.5.2/slf4j-1.5.2/slf4j-nop-1.5.2.jar"/>\r\n</userlibrary>\r\n

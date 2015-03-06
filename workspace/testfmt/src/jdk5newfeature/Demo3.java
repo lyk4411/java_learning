@@ -1,0 +1,120 @@
+package jdk5newfeature;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Demo3 demo3 = new Demo3();
+		System.out.println("==============1===================");
+		demo3.test1();
+		System.out.println("==============2===================");
+		demo3.test2();
+		System.out.println("==============3===================");
+		demo3.test3();
+		System.out.println("==============4===================");
+		demo3.test4();
+		System.out.println("==============5===================");
+		demo3.test5();
+		System.out.println("==============6===================");
+		demo3.test6();
+
+	}
+
+	public void test1() {
+		int arr[] = { 1, 2, 3 };
+		for (int i : arr) {
+			System.out.println(i);
+		}
+	}
+
+	public void test2() {
+		List list = new ArrayList();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+
+		for (Object obj : list) {
+			int i = (Integer) obj;
+			System.out.println(i);
+		}
+	}
+
+	public void test3() {
+		Map map = new LinkedHashMap();
+		map.put(1, "one");
+		map.put(2, "two");
+		map.put(3, "three");
+
+		// 传统遍历1
+		Set set = map.keySet();
+		Iterator it = set.iterator();
+		while (it.hasNext()) {
+			int key = (Integer) it.next();
+			String value = (String) map.get(key);
+			System.out.println(key + "=" + value);
+		}
+
+	}
+
+	public void test4() {
+		Map map = new LinkedHashMap();
+		map.put(1, "one");
+		map.put(2, "two");
+		map.put(3, "three");
+
+		// 传统遍历2
+		Set set = map.entrySet();
+		Iterator it = set.iterator();
+		while (it.hasNext()) {
+			Map.Entry entry = (Entry) it.next();
+
+			int key = (Integer) entry.getKey();
+			String value = (String) entry.getValue();
+			System.out.println(key + "=" + value);
+		}
+
+	}
+
+	// 使用增强for循环-方式1
+
+	public void test5() {
+		Map map = new LinkedHashMap();
+		map.put(1, "one");
+		map.put(2, "two");
+		map.put(3, "three");
+
+		for (Object obj : map.keySet()) {
+			int key = (Integer) obj;
+			String value = (String) map.get(key);
+
+			System.out.println(key + "=" + value);
+
+		}
+
+	}
+
+	// 使用增强for循环-方式2
+
+	public void test6() {
+		Map map = new LinkedHashMap();
+		map.put(1, "one");
+		map.put(2, "two");
+		map.put(3, "three");
+
+		for (Object obj : map.entrySet()) {
+			Map.Entry entry = (Entry) obj;
+			int key = (Integer) entry.getKey();
+			String value = (String) entry.getValue();
+			System.out.println(key + "=" + value);
+
+		}
+
+	}
+}

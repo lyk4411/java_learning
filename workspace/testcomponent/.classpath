@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/software/mysql-connector-java-5.1.6/mysql-connector-java-5.1.6/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/software/slf4j-1.5.2/slf4j-1.5.2/slf4j-log4j12-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/software/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="D:/software/hibernate-distribution-3.3.1.GA-dist/hibernate-distribution-3.3.1.GA/lib/required/jta-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

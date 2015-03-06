@@ -1,0 +1,34 @@
+package com.app;
+
+import java.awt.Frame;
+import java.util.ArrayList;
+import java.util.List;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Frame mainFrame = new Frame("LYK");
+		
+		System.out.println("adfa");
+		for (int i=0;i<10;i++){
+			int num = (int)(Math.random() * 100) + 1;
+			System.out.println(num);
+		}
+		List<String> names = new ArrayList<String>();
+		names.add("d");
+		names.add("c");
+		names.add("b");
+		names.add("a");	
+		System.out.println(names);
+		
+		render();
+	}
+	public static void render(){
+		int a = 2;
+		int b = 3;
+		int res = a + b;
+		System.out.println(res);
+	}
+} 

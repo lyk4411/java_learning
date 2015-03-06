@@ -1,0 +1,19 @@
+INDEX VERSION 1.126
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3426383143.index
+\helloconvert\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3154512007.index
+\addressbook\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3507680462.index
+\hellostruts\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3190270156.index
+\helloconvert\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2605901843.index
+\hellostruts2\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3198689626.index
+\mynews\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2050344845.index
+\hellojsp\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2984419911.index
+\news\src
+D:\Users\liu.yongkai\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2353281448.index
+\advancedjsp\src

@@ -1,0 +1,6 @@
+package jdk5newfeature;
+
+public @interface MetaAnnotation {
+	MetaAnnotation annotation() default ("xxx");
+
+}

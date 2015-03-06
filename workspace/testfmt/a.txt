@@ -1,0 +1,10 @@
+2
+jack aaa bbb ccc ddd eee ffff
+milk BI CPS CMS Bi CPs CMs 
+box
+ms
+dos
+java
+c++
+net
+database

@@ -1,0 +1,10 @@
+<io.Person-array>
+  <io.Person>
+    <name>Jay</name>
+    <age>24</age>
+  </io.Person>
+  <io.Person>
+    <name>Tom</name>
+    <age>23</age>
+  </io.Person>
+</io.Person-array>
